@@ -5,9 +5,15 @@ import './App.css';
 
 
 function App() {
+    const [gameStarted, setGameStarted] = useState(false);
+
     useEffect(() => {
         GameApp.getInstance().gameController.startGameAction();
+        setGameStarted(true);
     }, [])
+
+    if (!gameStarted)
+        return <>loading</>;
 
     return (
         <div className="app">
