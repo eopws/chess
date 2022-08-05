@@ -1,0 +1,5 @@
+export { BoardModel } from './BoardModel'
+export { CellModel } from './CellModel'
+export { FigureModel, FigureNames } from './FigureModel'
+export { GameModel } from './GameModel'
+export { App } from './App'

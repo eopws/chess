@@ -1,0 +1,1 @@
+export { FigureFactory } from './FigureFactory'

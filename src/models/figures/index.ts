@@ -1,0 +1,6 @@
+export { Pawn } from './Pawn'
+export { King } from './King'
+export { Bishop } from './Bishop'
+export { Knight } from './Knight'
+export { Queen } from './Queen'
+export { Rook } from './Rook'
